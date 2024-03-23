@@ -47,7 +47,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 63.5 73.66)
+			(xy 50.8 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189d9e92-bade-4287-983a-f327aa7bc7b0")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 30.48) (xy 63.5 30.48)
+			(xy 50.8 34.29) (xy 63.5 34.29)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 71.12) (xy 63.5 71.12)
+			(xy 50.8 78.74) (xy 63.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -127,23 +137,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 27.94) (xy 63.5 27.94)
+			(xy 50.8 31.75) (xy 63.5 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b687e3e-03e3-4cef-91fb-cff99c99c0eb")
-	)
-	(wire
-		(pts
-			(xy 50.8 68.58) (xy 63.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61fbe045-2011-4efd-88c6-efa16d8dbe97")
 	)
 	(wire
 		(pts
@@ -154,6 +154,16 @@
 			(type default)
 		)
 		(uuid "6c083462-a1e2-4313-97fd-379e521d3373")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7345b012-1850-403f-8735-5715f4ca022a")
 	)
 	(wire
 		(pts
@@ -177,7 +187,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 63.5 35.56)
+			(xy 50.8 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b96019-c74b-4b7b-8542-c7865bb9a482")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +217,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 63.5 63.5)
+			(xy 50.8 73.66) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 66.04) (xy 63.5 66.04)
+			(xy 50.8 76.2) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +247,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 63.5 40.64)
+			(xy 50.8 63.5) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +297,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 63.5 60.96)
+			(xy 50.8 71.12) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +307,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 63.5 33.02)
+			(xy 50.8 36.83) (xy 63.5 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1826,18 +1846,8 @@
 			)
 			(uuid "771745a9-18bc-486b-acb9-a440cda4e591")
 		)
-		(pin "PWM5" output
-			(at 63.5 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "552fd1af-8458-42f5-8a03-dee018300a76")
-		)
 		(pin "USB0_DP" bidirectional
-			(at 63.5 27.94 180)
+			(at 63.5 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1857,7 @@
 			(uuid "f80cc22b-d258-477b-ae84-7a580bf0010b")
 		)
 		(pin "USB0_DN" bidirectional
-			(at 63.5 30.48 180)
+			(at 63.5 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1867,7 @@
 			(uuid "ce9bdfc3-1873-402b-a4ef-87a9e5cae4e2")
 		)
 		(pin "LEDC" output
-			(at 63.5 60.96 180)
+			(at 63.5 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1877,7 @@
 			(uuid "b1af56d3-1d6c-42be-b2ed-d839b00b1e28")
 		)
 		(pin "CAN0_TX" output
-			(at 63.5 71.12 180)
+			(at 63.5 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1887,7 @@
 			(uuid "0fe9261f-0e34-474b-a74a-9a2fca187cf3")
 		)
 		(pin "CAN0_RX" input
-			(at 63.5 73.66 180)
+			(at 63.5 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1937,7 @@
 			(uuid "ffcf7170-05c1-4bd5-b85e-0481967f573f")
 		)
 		(pin "DI1" input
-			(at 63.5 63.5 180)
+			(at 63.5 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1947,7 @@
 			(uuid "c8103525-c059-4ac8-a2d8-088656b61cbe")
 		)
 		(pin "DI2" input
-			(at 63.5 66.04 180)
+			(at 63.5 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,17 +2017,17 @@
 			(uuid "a2fa8d0d-ae01-4eac-ab5f-c0448eac6ee8")
 		)
 		(pin "RST" input
-			(at 63.5 68.58 180)
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "a17ec350-92bc-478a-b00d-4b3301ef6bc2")
 		)
 		(pin "USB1_DP" bidirectional
-			(at 63.5 33.02 180)
+			(at 63.5 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2037,7 @@
 			(uuid "0c009777-d40b-47af-9f60-29dd9a61b7e4")
 		)
 		(pin "USB1_DN" bidirectional
-			(at 63.5 35.56 180)
+			(at 63.5 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,6 +2045,46 @@
 				(justify left)
 			)
 			(uuid "77ae5f42-9098-42cb-87ff-c114452c17e7")
+		)
+		(pin "RELAY_COIL_GND" output
+			(at 63.5 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4939e53d-b300-4877-be22-72b6802ed158")
+		)
+		(pin "RELAY_COIL_VDC" output
+			(at 63.5 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9ea3ba3-ba67-4d3e-a64a-c758aed5689d")
+		)
+		(pin "RELAY_SW" output
+			(at 63.5 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3331cbf4-e3f6-460e-afce-cdb9e40b0830")
+		)
+		(pin "USB_SW" output
+			(at 63.5 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46ad3a1f-2496-4c1f-a87e-cb97a18203f8")
 		)
 		(instances
 			(project "underglow3"
@@ -2075,7 +2125,7 @@
 			)
 		)
 		(pin "USB0_DP" bidirectional
-			(at 50.8 27.94 0)
+			(at 50.8 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2135,7 @@
 			(uuid "44337c91-fd5b-42b4-9109-c45681dde356")
 		)
 		(pin "USB0_DN" bidirectional
-			(at 50.8 30.48 0)
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2145,7 @@
 			(uuid "c9262d01-a43b-4aaa-bf6d-3612b25d26e8")
 		)
 		(pin "LEDC" input
-			(at 50.8 60.96 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2155,7 @@
 			(uuid "cd72d0bc-5671-4da7-af5b-5c6e77fcc209")
 		)
 		(pin "CAN_TX" input
-			(at 50.8 71.12 0)
+			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2165,7 @@
 			(uuid "ac5eea78-7d7e-429c-b91c-341e5e8b3f37")
 		)
 		(pin "CAN_RX" output
-			(at 50.8 73.66 0)
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2175,7 @@
 			(uuid "f33e7c8d-9686-47d2-9389-fcdd93089bbc")
 		)
 		(pin "RELAY_SW" input
-			(at 50.8 40.64 0)
+			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2185,7 @@
 			(uuid "52a18e28-bddc-4665-ad40-eb7853dc1dfb")
 		)
 		(pin "DI_1" output
-			(at 50.8 63.5 0)
+			(at 50.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2195,7 @@
 			(uuid "17ca6415-f2cd-4675-84d4-35fe7608959f")
 		)
 		(pin "DI_2" output
-			(at 50.8 66.04 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2265,7 @@
 			(uuid "b19ae9ef-eaaa-4b0d-9b9b-7c3dc9c673a4")
 		)
 		(pin "USB1_DP" bidirectional
-			(at 50.8 33.02 0)
+			(at 50.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2275,7 @@
 			(uuid "b5c32ca6-ac1c-4be6-8fb6-d1f540c7a7fb")
 		)
 		(pin "USB1_DN" bidirectional
-			(at 50.8 35.56 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,6 +2283,36 @@
 				(justify right)
 			)
 			(uuid "e2842a9d-3417-49c3-904f-b815df0dacd4")
+		)
+		(pin "USB_SW" input
+			(at 50.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddd69ed3-bd18-4ce4-8e15-67d1b2df8655")
+		)
+		(pin "RELAY_COIL_GND" input
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "816509b6-31a1-4b6b-9bd7-728f4e87ee68")
+		)
+		(pin "RELAY_COIL_VDC" input
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "646f7a85-0925-4d38-be28-1d1dd31a2520")
 		)
 		(instances
 			(project "underglow3"
