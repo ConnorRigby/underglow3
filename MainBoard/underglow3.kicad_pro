@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
+          "height": 1.720015,
           "width": 1.0
         },
         "silk_line_width": 0.15,
@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -180,6 +181,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1565,
         0.18,
         0.2,
         0.3,
@@ -219,7 +221,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.7,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
@@ -833,7 +835,12 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+0v9": "rgb(132, 0, 0)",
+      "+3V3": "rgb(255, 0, 0)",
+      "/Application/VCC_DRAM": "rgb(221, 133, 0)",
+      "/Application/VCC_PE": "rgb(204, 102, 0)"
+    },
     "netclass_assignments": {
       "/Application/BT_EN": "SDIO_WIFI",
       "/Application/WIFI_CLK": "SDIO_WIFI",
@@ -1086,6 +1093,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1116,7 +1124,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1194,6 +1202,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AP6212",
+          "name": "AP6212",
           "show": false
         }
       ],

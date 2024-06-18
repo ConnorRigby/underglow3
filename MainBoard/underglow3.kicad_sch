@@ -2352,16 +2352,6 @@
 				(justify left top)
 			)
 		)
-		(pin "HCI_RTS" output
-			(at 114.3 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a68ef5d0-89f7-4946-854a-e20206297188")
-		)
 		(pin "SDIO_D3" input
 			(at 114.3 41.91 180)
 			(effects
@@ -2411,36 +2401,6 @@
 				(justify left)
 			)
 			(uuid "3dc4f016-daba-44e7-b4b3-01bfa7883054")
-		)
-		(pin "HCI_TX" output
-			(at 114.3 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5b37c571-f0e0-4b73-9616-5c7e95b1e426")
-		)
-		(pin "HCI_RX" input
-			(at 114.3 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b95c84cf-c480-474f-83cc-76a76d38d758")
-		)
-		(pin "HCI_CTS" input
-			(at 114.3 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e58866ca-6a83-4b01-bf88-9fe8dd2a24ed")
 		)
 		(pin "SDIO_CLK" input
 			(at 114.3 31.75 180)
@@ -2511,6 +2471,46 @@
 				(justify left)
 			)
 			(uuid "577ddc66-541f-4544-91f2-181657614683")
+		)
+		(pin "BT_HCI_RTS" input
+			(at 114.3 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c444d58c-f763-48a6-b96f-e9c7d59b3bc0")
+		)
+		(pin "BT_HCI_TX" input
+			(at 114.3 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b4f740b-ca24-40c5-8ef7-5addadf1ab1c")
+		)
+		(pin "BT_HCI_RX" output
+			(at 114.3 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9573b730-20a6-467e-9624-fa52aab43ccb")
+		)
+		(pin "BT_HCI_CTS" output
+			(at 114.3 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab3bf8cc-5e00-4c48-b823-043d2a5d7509")
 		)
 		(instances
 			(project "underglow3"
