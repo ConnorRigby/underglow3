@@ -1349,7 +1349,7 @@
 			(pintype "passive+no_connect")
 			(uuid "0a533f66-d121-4a55-9dc9-871c0eac0969")
 		)
-		(model "C:/Users/konno/Desktop/workspace/connorrigby/underglow3/library/work/JLC2KiCad_lib/footprint/packages3d/USB-A-SMD_USB-234-BCW.step"
+		(model "${KIPRJMOD}/../library/work/JLC2KiCad_lib/footprint/packages3d/USB-A-SMD_USB-234-BCW.step"
 			(offset
 				(xyz 0 -5.000066 4.000001)
 			)
@@ -1360,7 +1360,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/konno/Desktop/workspace/connorrigby/underglow3/library/Connector_LCSC_USB.pretty/packages3d/mini_usb_wifi_adapter.stp"
+		(model "${KIPRJMOD}/../library/Connector_LCSC_USB.pretty/packages3d/mini_usb_wifi_adapter.stp"
 			(offset
 				(xyz 0 -15 4)
 			)
@@ -74714,14 +74714,6 @@
 		(uuid "3d233d1e-6cef-40c3-8911-a1a2151849c9")
 	)
 	(segment
-		(start 86.2 160.270254)
-		(end 79.1 160.270254)
-		(width 1)
-		(layer "F.Cu")
-		(net 34)
-		(uuid "2372da6e-846a-4887-8220-a395fde65750")
-	)
-	(segment
 		(start 103 165.870254)
 		(end 92.2 165.870254)
 		(width 2)
@@ -74730,12 +74722,28 @@
 		(uuid "27c17dda-4760-4765-a98d-830490fbacf1")
 	)
 	(segment
+		(start 86.2 160.270254)
+		(end 79.6 160.270254)
+		(width 1)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "48854893-d326-45de-a3b0-c5f4c2960ee6")
+	)
+	(segment
 		(start 102.925 161.970254)
 		(end 103 162.045254)
 		(width 2)
 		(layer "F.Cu")
 		(net 34)
 		(uuid "92c4a221-c094-4128-81a5-0c5c46b476cc")
+	)
+	(segment
+		(start 86.2 166.220254)
+		(end 86.2 160.270254)
+		(width 1)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "bb7682b4-83f7-4d22-81ff-aa56a4ba71dd")
 	)
 	(segment
 		(start 86.2 166.220254)
@@ -74760,14 +74768,6 @@
 		(layer "F.Cu")
 		(net 34)
 		(uuid "ca74b040-258e-47c8-b50f-67a3bb77a94d")
-	)
-	(segment
-		(start 86.2 166.220254)
-		(end 86.2 160.270254)
-		(width 1)
-		(layer "F.Cu")
-		(net 34)
-		(uuid "da36a30a-a8b1-4b41-aeeb-30082f9db350")
 	)
 	(segment
 		(start 88.3 152.470254)

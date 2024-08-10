@@ -1,0 +1,4 @@
+Id	Description	Qty	Unit	Designators
+1	Cable, 4 x 24 AWG, BK	11.8	in	wr_conn_led1, wr_conn_led2
+2	Connector, 24 pins	1		conn_contorller
+3	Connector, 4 pins	1		conn_strip1

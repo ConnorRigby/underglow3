@@ -1,0 +1,59 @@
+templates: # defining templates to be used later on
+  - &wr_jst_sm_f
+    gauge: 24 AWG
+    length: 5.9 in
+    color: BK  # Cable jacket color
+    colors: [BU, RD, GN, BK]
+    wirecount: 4
+    image:
+      src: resources/JST-SM-01x04-Female.png
+      height: 70  # Scale the image size slightly down
+  - &wr_jst_sm_m
+    gauge: 24 AWG
+    length: 5.9 in
+    color: BK  # Cable jacket color
+    colors: [BU, RD, GN, BK]
+    wirecount: 4
+    image:
+      src: resources/JST-SM-01x04-Male.png
+      height: 70  # Scale the image size slightly down
+  - &con_jst_sm_m
+    pins: [1, 2, 3, 4]
+    pinlabels: [12V, DAT, BU, GND]
+    image:
+      src: resources/JST-SM-01x04-Male.png
+
+connectors:
+  conn_contorller:
+    pins: [
+      A1, A2, A3, A4, A5, A6, A7, A8, # row 1
+      B1, B2, B3, B4, B5, B6, B7, B8, # row 2
+      C1, C2, C3, C4, C5, C6, C7, C8 # row 3
+    ]
+    pinlabels: [
+      O1, B1, G1, R1, B2, G2, R2, O2, # row 1
+      GND1, CANL, CANH, PI1, PI2, LED1, LED2, GND2, # row 2
+      GND3, B1, G1, R1, B2, G2, R2, VIN # row 3
+    ]
+    image:
+      src: resources/211PC249S0005.png
+      caption: Main Connector
+  
+  conn_strip1:
+    <<: *con_jst_sm_m
+
+cables:
+  wr_conn_led1:
+    <<: *wr_jst_sm_f
+  wr_conn_led2:
+    <<: *wr_jst_sm_f
+
+connections:
+  -
+    - conn_strip1
+  -
+    - conn_contorller: [ LED1, O1, GND1 ]
+    - wr_conn_led1: [ 1, 2, 4 ]
+  -
+    - conn_contorller: [ LED2, O2, GND2 ]
+    - wr_conn_led2: [ 1, 2, 4 ]
